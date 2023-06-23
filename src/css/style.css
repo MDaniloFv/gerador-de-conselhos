@@ -1,0 +1,67 @@
+/* 1 rem e igual a 16 px */
+
+body {
+    background-color: var(--Dark-Blue);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15rem;
+}
+
+.container .gerador-de-conselho {
+    max-width: 35rem;
+    background-color: var(--Dark-Grayish-Blue);
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .gerador-de-conselho p {
+    color: var(--Neon-Green);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.container .gerador-de-conselho blockquote {
+    color: var(--Light-Cyan);
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.container .gerador-de-conselho button {
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--Neon-Green);
+    border: 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: -5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.container .gerador-de-conselho button:hover {
+    -webkit-box-shadow: 5px 5px 43px -2px var(--Neon-Green);
+    box-shadow: 5px 5px 43px -2px var(--Neon-Green);
+    transform: scale(1.09);
+    cursor: pointer;
+}
